@@ -1,0 +1,16 @@
+{
+  "type": "rich",
+  "version": "1.0",
+  "title": "My Interactive Data Map",
+  "author_name": "Octocat",
+  "author_url": "https://github.com/octocat",
+  "provider_name": "GitHub Pages",
+  "provider_url": "https://pages.github.com/",
+  "cache_age": 86400,
+  "thumbnail_url": "https://yourname.github.io/thumb.png",
+  "thumbnail_width": 480,
+  "thumbnail_height": 360,
+  "html": "<iframe src='https://yourname.github.io/embed-view' width='600' height='400' frameborder='0' scrolling='no'></iframe>",
+  "width": 600,
+  "height": 400
+}
