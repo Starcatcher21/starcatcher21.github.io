@@ -5,9 +5,9 @@
   "provider_name": "Starcatcher Website",
   "provider_url": "https://starcatcher21.github.io/",
   "author_name": "Starcatcher",
-  "thumbnail_url": "./photos/teapony.png",
-  "thumbnail_width": 1200,
-  "thumbnail_height": 1200,
+  "thumbnail_url": "https://Starcatcher21.github.io/photos/teapony.png",
+  "thumbnail_width": 600,
+  "thumbnail_height": 600,
   "width": 1200,
   "height": 1200
 }
