@@ -1,15 +1,13 @@
 {
   "type": "rich",
   "version": "1.0",
-  "title": "Pony",
-  "author_name": "Starcatcher",
-  "author_url": "https://github.com/Starcatcher21",
-  "provider_name": "Starcatcher Website",
-  "provider_url": "https://Starcatcher21.github.io/",
-  "cache_age": 86400,
-  "thumbnail_url": "https://starcatcher21.github.io/photos/teapony.png",
-  "thumbnail_width": 480,
-  "thumbnail_height": 480,
-  "width": 600,
-  "height": 600
+  "title": "Possum Paradise",
+  "provider_name": "Possum Paradise",
+  "provider_url": "https://possumparadise.com",
+  "author_name": "A place to share over your possum pictures and discover new ones!",
+  "thumbnail_url": "https://possumparadise.com/static/icon/image.jpg",
+  "thumbnail_width": 1200,
+  "thumbnail_height": 1200,
+  "width": 1200,
+  "height": 1200
 }
