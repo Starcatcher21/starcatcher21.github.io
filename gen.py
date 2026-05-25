@@ -28,13 +28,12 @@ metas = """		        <title>Pony Website</title>
 				<meta property="twitter:url" content="https://starcatcher21.github.io/"/>
 				<meta property="twitter:title" content="Website about diffrent form of art"/>
 				<meta property="twitter:image" content={image}/>"""
-with open("./gen.json", 'r') as js:
+with open("./public/gen.json", 'r') as js:
     data = json.load(js)
 data["aboutme"] = data["aboutme"].replace("${name}", data["name"]).replace("${pronounce}", data["pronounce"])
 data["short"] = data["short"].replace("${name}", data["name"]).replace("${pronounce}", data["pronounce"])
 metas = metas.replace("{color}", '"' + data["color"] + '"').replace("{aboutme}", '"' + data["aboutme"] + '"').replace("{image}", '"' + data["image"] + '"')
 index = index.replace("{head}", metas)
-print(index)
-with open("./index.html", "w") as ind:
+with open("./public/index.html", "w") as ind:
     ind.truncate()
     ind.write(index)
