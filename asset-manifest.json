@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.11fb2d96.css",
-    "main.js": "/static/js/main.dcfdf53f.js",
+    "main.js": "/static/js/main.c291282e.js",
     "static/media/teapony.png": "/static/media/teapony.f1bdfc879abd61bc78d9.png",
     "index.html": "/index.html",
     "main.11fb2d96.css.map": "/static/css/main.11fb2d96.css.map",
-    "main.dcfdf53f.js.map": "/static/js/main.dcfdf53f.js.map"
+    "main.c291282e.js.map": "/static/js/main.c291282e.js.map"
   },
   "entrypoints": [
     "static/css/main.11fb2d96.css",
-    "static/js/main.dcfdf53f.js"
+    "static/js/main.c291282e.js"
   ]
 }
