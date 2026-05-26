@@ -43,16 +43,31 @@
 .aboutme {
 	display: flex;
 	flex-direction: row;
+	justify-content: space-between;
 }
 
 .aboutme > .right > img {
-		min-width: 62.2px;
-		max-width: 10vw;
+	min-width: 62.2px;
+	max-width: 10vw;
+}
+.aboutme > .right {
+	align-self: flex-end;
+}
+.aboutme > .left {
+	align-self: flex-start;
 }
 .diagnosis {
-		display: flex;
-		flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 .window > .bottom > p {
-		margin: var(--margin);
+	margin: var(--margin);
+}
+.gallery > div > img {
+	max-width: 15vw;
+}
+.gallery {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
 }

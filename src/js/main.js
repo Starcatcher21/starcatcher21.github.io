@@ -16,15 +16,18 @@ export default function Main() {
 			{aboutme(data)}
 			{diagnosis(data, "diagnosis")}
 			{diagnosis(data, "intrests")}
-			<Window name="Playlist link" rout="/playlist">
+			<Window name="Playlist link" rout="/playlist" share={false} full={true}>
 			<Link to="/playlist">Pony Music playlist visit if you want</Link>
+			</Window>
+			<Window name="Pony Gallery" rout="/gallery" share={false} full={true}>
+			<Link to="/gallery">visit all my pony drawings</Link>
 			</Window>
 		</>
 	)
 }
 
 function aboutme(data) {
-	if (data == {}) {
+	if (data === {}) {
 		return (<></>)
 	}
 	var about = String(data["aboutme"]).replace("${name}", data["name"]).replace("${pronounce}", data["pronounce"])
@@ -43,7 +46,7 @@ function aboutme(data) {
 }
 
 function diagnosis(data, what) {
-	if (data[what] == undefined) {
+	if (data[what] === undefined) {
 			return (<></>)
 	}
 	return (
