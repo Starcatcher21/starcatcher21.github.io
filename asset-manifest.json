@@ -1,13 +1,45 @@
 {
   "files": {
-    "main.css": "/static/css/main.2fac3079.css",
-    "main.js": "/static/js/main.5f26f6f0.js",
+    "main.css": "/static/css/main.b598fc69.css",
+    "main.js": "/static/js/main.de839c65.js",
+    "static/media/me in japan.gif": "/static/media/me in japan.49d4c8ba69606369062d.gif",
+    "static/media/bop.gif": "/static/media/bop.2df1934c9e7bbe502098.gif",
+    "static/media/dance.gif": "/static/media/dance.72c3a120e725b616a412.gif",
+    "static/media/boopych.png": "/static/media/boopych.d7ae7e696743507bc794.png",
+    "static/media/grab look flower.png": "/static/media/grab look flower.242eeaa29209d9521a8b.png",
+    "static/media/deal.png": "/static/media/deal.1f0967199933b6cbc0ac.png",
+    "static/media/randewu.png": "/static/media/randewu.a7ae4ded70c47355fb42.png",
+    "static/media/matter.png": "/static/media/matter.160130ccd002e32cd09f.png",
+    "static/media/bunny_hug2.png": "/static/media/bunny_hug2.3639b4f795f923728b02.png",
+    "static/media/mirror.png": "/static/media/mirror.1ff73a2b4245c6245e8c.png",
+    "static/media/bunny_hug.png": "/static/media/bunny_hug.3428d703413c0dc34ba3.png",
+    "static/media/tea.png": "/static/media/tea.5ed5dda90dc3f2274956.png",
+    "static/media/kucJock.png": "/static/media/kucJock.670d44faec24bbe58d5f.png",
+    "static/media/awtism.png": "/static/media/awtism.913ec84b61bf0e5a038f.png",
+    "static/media/kucJock_out.png": "/static/media/kucJock_out.407668f4beb72a46a269.png",
+    "static/media/ponyJock.png": "/static/media/ponyJock.231779f41e87560b7ea0.png",
+    "static/media/glasses.png": "/static/media/glasses.6d7635825321aae49e4e.png",
+    "static/media/JOKER.png": "/static/media/JOKER.344679b0311a17e25a70.png",
+    "static/media/JOCKER_out.png": "/static/media/JOCKER_out.692b70c4e902492ff0ee.png",
+    "static/media/earhood.png": "/static/media/earhood.47e453ab6d30d0c63ac9.png",
+    "static/media/ball.png": "/static/media/ball.008937a94a6ea74be788.png",
+    "static/media/boop.png": "/static/media/boop.8a3f0a0b1a4965e6c7e3.png",
+    "static/media/sit.png": "/static/media/sit.ef32a4a8b477194c7cf6.png",
+    "static/media/peaking.png": "/static/media/peaking.6783e951d58460ac3577.png",
+    "static/media/ponyflag.png": "/static/media/ponyflag.13dea5bfbd00a0fc216e.png",
+    "static/media/grab look.png": "/static/media/grab look.edf75463e21a7b26a6c4.png",
+    "static/media/grab.png": "/static/media/grab.cbb9b7741fe41ea30089.png",
+    "static/media/sit_w_flower.png": "/static/media/sit_w_flower.f65daa2c15a96d10c4ce.png",
+    "static/media/cosmic star bg.png": "/static/media/cosmic star bg.a0d585fd36c6a7a52bf1.png",
+    "static/media/luv.png": "/static/media/luv.a2c59f342f63d7a99025.png",
+    "static/media/kuc.png": "/static/media/kuc.03a779c224e8e356d257.png",
+    "static/media/sleep.png": "/static/media/sleep.ab095d647f0c6719d3eb.png",
     "index.html": "/index.html",
-    "main.2fac3079.css.map": "/static/css/main.2fac3079.css.map",
-    "main.5f26f6f0.js.map": "/static/js/main.5f26f6f0.js.map"
+    "main.b598fc69.css.map": "/static/css/main.b598fc69.css.map",
+    "main.de839c65.js.map": "/static/js/main.de839c65.js.map"
   },
   "entrypoints": [
-    "static/css/main.2fac3079.css",
-    "static/js/main.5f26f6f0.js"
+    "static/css/main.b598fc69.css",
+    "static/js/main.de839c65.js"
   ]
 }
