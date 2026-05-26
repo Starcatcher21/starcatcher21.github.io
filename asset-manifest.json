@@ -1,14 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.553a0f37.css",
-    "main.js": "/static/js/main.4a9c25e3.js",
+    "main.js": "/static/js/main.b8b02136.js",
     "static/media/amethyst_spikes.png": "/static/media/amethyst_spikes.716a7f05a62bf13f7582.png",
     "static/media/bone_forest.png": "/static/media/bone_forest.dc75672d041298fdf64b.png",
+    "static/media/moon_tree.png": "/static/media/moon_tree.35a4c5d56ed8212d085c.png",
     "static/media/moon_forest.png": "/static/media/moon_forest.9806da75794d924b7b4a.png",
     "static/media/moon_wastes.png": "/static/media/moon_wastes.b8e62c3793d5d4cc1ffe.png",
+    "static/media/portal.png": "/static/media/portal.ffe9bf62860f3bbbdf2d.png",
+    "static/media/ghost.png": "/static/media/ghost.db3278f6402dd9bfd82d.png",
     "static/media/me in japan.gif": "/static/media/me in japan.49d4c8ba69606369062d.gif",
     "static/media/bop.gif": "/static/media/bop.2df1934c9e7bbe502098.gif",
     "static/media/dance.gif": "/static/media/dance.72c3a120e725b616a412.gif",
+    "static/media/loadstone.png": "/static/media/loadstone.492dfa0aec16db01bbeb.png",
     "static/media/boopych.png": "/static/media/boopych.d7ae7e696743507bc794.png",
     "static/media/grab look flower.png": "/static/media/grab look flower.242eeaa29209d9521a8b.png",
     "static/media/deal.png": "/static/media/deal.1f0967199933b6cbc0ac.png",
@@ -40,10 +44,10 @@
     "static/media/sleep.png": "/static/media/sleep.ab095d647f0c6719d3eb.png",
     "index.html": "/index.html",
     "main.553a0f37.css.map": "/static/css/main.553a0f37.css.map",
-    "main.4a9c25e3.js.map": "/static/js/main.4a9c25e3.js.map"
+    "main.b8b02136.js.map": "/static/js/main.b8b02136.js.map"
   },
   "entrypoints": [
     "static/css/main.553a0f37.css",
-    "static/js/main.4a9c25e3.js"
+    "static/js/main.b8b02136.js"
   ]
 }
