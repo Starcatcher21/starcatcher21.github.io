@@ -22,6 +22,9 @@ export default function Main() {
 			<Window name="Pony Gallery" rout="/gallery" share={false} full={true}>
 			<Link to="/gallery">visit all my pony drawings</Link>
 			</Window>
+			<Window name="Stargazer Wiki" rout="/wiki" share={false} full={true}>
+			<Link to="/wiki">Wiki to my minecraft mod called stargazer</Link>
+			</Window>
 		</>
 	)
 }
