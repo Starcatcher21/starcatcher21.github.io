@@ -4,7 +4,7 @@
 	"site_name": "Starcatcher Website",
 	"color": "#c6a0f6",
 	"pronounce": "she/they/it",
-	"intrests": "Stars, Ponies, Drawing, Programing, Music, Technology and probably so much more",
+	"intrests": ["Stars", "Ponies", "Drawing", "Programing", "Music", "Technology", "and  more"],
 	"aboutme": "Hi I'm ${name} ${pronounce} and this is my website where i share my work. I make many types of art like pixel art, 3d models, minecraft mods, music and more. I hope you enjoy spending time on this site.",
 	"short": "Hi I'm ${name} ${pronounce} and I make stuff come here to watch what I make.",
 	"image": "https://starcatcher21.github.io/photos/teapony.png",
