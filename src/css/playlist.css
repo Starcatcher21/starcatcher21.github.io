@@ -1,0 +1,158 @@
+:root {
+	--accent: #CBA6F7;
+	--bg: #181825;
+	--fg: #CDD6F4;
+	--radii: 7px;
+	--padding: 3px;
+	--paddingsmall: 1px;
+	--paddingdos: 6px;
+	
+	font-family: "Adwaita Sans";
+}
+
+* {
+	background-color: var(--bg);
+	color: var(--fg);
+}
+
+.hidden {
+	display: none;
+}
+
+.trackHTML {
+	background-color: var(--bg);
+	color: var(--fg);
+	padding: var(--padding);
+	border: 2px solid var(--accent);
+	border-radius: var(--radii);
+	padding-left: var(--padding);
+	padding-right: var(--padding);
+}
+.trackHTML {
+  display: flex; 
+	flex-direction: row;
+	margin-bottom: var(--padding);
+}
+
+.divine {
+	display: flex;
+	flex-grow: 1;
+	align-items: start;
+	flex-direction: column;
+}
+
+.divine2 {
+	display: flex;
+	flex-grow: 1;
+	align-items: end;
+	flex-direction: column-reverse;
+}
+.footer {
+	display: flex;
+	flex-direction: row-reverse;
+}
+.footer > a {
+	padding-left: var(--padding);
+}
+.playlist {
+	font-size: 28px;
+	padding: var(--padding);
+	margin-bottom: var(--padding);
+}
+
+.top {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column;
+	min-height: 50px;
+}
+
+.bottom {
+	display: flex;
+	flex-grow: 1;
+	flex-direction: column-reverse;
+	min-height: 50px;
+}
+.cover {
+	max-height: 128px;
+	max-width: 128px;
+	padding-right: var(--paddingdos);
+}
+
+.cover2 {
+	max-height: 128px;
+	max-width: 128px;
+}
+
+
+.amazon {
+	max-height: 32px;
+	max-width: 32px;
+}
+
+.nonclick {
+	all: unset;
+}
+
+.mainartist {
+	display: flex;
+	background-color: var(--bg);
+	color: var(--fg);
+	padding: var(--paddingsmall);
+	border: 2px solid var(--accent);
+	border-radius: var(--radii);
+	padding-left: var(--padding);
+	padding-right: var(--padding);
+}
+.mainartist > p {
+	margin-top: 3px;
+}
+
+.albs {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+.albs > * {
+	flex-grow: 100;
+}
+
+.album {
+	width: 128px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color: var(--bg);
+	color: var(--fg);
+	padding: var(--paddingsmall);
+	border: 2px solid var(--accent);
+	border-radius: var(--radii);
+	margin-right: var(--padding);
+	padding-left: var(--padding);
+	padding-right: var(--padding);
+}
+
+.album > p {
+	margin-top: 3px;
+	word-wrap: break-word;
+}
+
+.tags {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
+
+.tags > *{
+	flex-grow: 100;
+	text-align: center;
+	background-color: var(--bg);
+	color: var(--fg);
+	padding: var(--paddingdos);
+	margin-top: var(--padding);
+	margin-bottom: 0px;
+	margin-right: var(--padding);
+	border: 2px solid var(--accent);
+	border-radius: var(--radii);
+}
+
