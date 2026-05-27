@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.553a0f37.css",
-    "main.js": "/static/js/main.b8b02136.js",
+    "main.css": "/static/css/main.db1ec782.css",
+    "main.js": "/static/js/main.c30b28df.js",
     "static/media/amethyst_spikes.png": "/static/media/amethyst_spikes.716a7f05a62bf13f7582.png",
     "static/media/bone_forest.png": "/static/media/bone_forest.dc75672d041298fdf64b.png",
     "static/media/moon_tree.png": "/static/media/moon_tree.35a4c5d56ed8212d085c.png",
@@ -43,11 +43,11 @@
     "static/media/kuc.png": "/static/media/kuc.03a779c224e8e356d257.png",
     "static/media/sleep.png": "/static/media/sleep.ab095d647f0c6719d3eb.png",
     "index.html": "/index.html",
-    "main.553a0f37.css.map": "/static/css/main.553a0f37.css.map",
-    "main.b8b02136.js.map": "/static/js/main.b8b02136.js.map"
+    "main.db1ec782.css.map": "/static/css/main.db1ec782.css.map",
+    "main.c30b28df.js.map": "/static/js/main.c30b28df.js.map"
   },
   "entrypoints": [
-    "static/css/main.553a0f37.css",
-    "static/js/main.b8b02136.js"
+    "static/css/main.db1ec782.css",
+    "static/js/main.c30b28df.js"
   ]
 }
