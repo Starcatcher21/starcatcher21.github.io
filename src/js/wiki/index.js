@@ -10,7 +10,7 @@ export default function wiki() {
 	return (
 		<>
 		<div className="center">
-			<h2>Welcome to stargazer minecraft mod wiki</h2>
+			<h2>Welcome to <a href='https://modrinth.com/mod/stargazer'>stargazer</a> minecraft mod wiki</h2>
 		</div>
 		<div className='pages center'>
 		<Window name="Biomes" rout="/wiki/biomes" min='/wiki' full><Link to="/wiki/biomes"><img src={mf} /></Link></Window>

@@ -91,3 +91,9 @@
 	min-width: 34vw;
 	max-width: 39vw;
 }
+.socials {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}

@@ -14,6 +14,7 @@ export default function Main() {
 	return (
 		<>
 			{aboutme(data)}
+			{socials()}
 			{diagnosis(data, "diagnosis")}
 			{diagnosis(data, "intrests")}
 			<Window name="Playlist link" rout="/playlist" share={false} full={true}>
@@ -23,9 +24,24 @@ export default function Main() {
 			<Link to="/gallery">visit all my pony drawings</Link>
 			</Window>
 			<Window name="Stargazer Wiki" rout="/wiki" share={false} full={true}>
-			<Link to="/wiki">Wiki to my minecraft mod called stargazer</Link>
+			<Link to="/wiki">Wiki to my minecraft mod called stargazer</Link><a href='https://modrinth.com/mod/stargazer'>Link to mod</a>
 			</Window>
 		</>
+	)
+}
+
+function socials() {
+	return (
+		<Window name="Socials" rout="/" share={false}>
+			<p>1. <a href='https://discordapp.com/users/398872083053936640'>Discord</a></p>
+			<p>2. <a href='https://modrinth.com/user/Starcatcher'>Modrinth</a></p>
+			<p>3. <a href='https://www.instagram.com/bonnie_starcatcher/'>Instagram</a></p>
+			<p>4. <a href='https://toyhou.se/Starcatcher_'>Toyhouse</a></p>
+			<p>5. <a href='https://steamcommunity.com/id/star_catcher_/'>Steam</a></p>
+			<p>6. <a href='https://github.com/Starcatcher21'>Github</a></p>
+			<p>7. <a href='https://m.youtube.com/@bonnie_starcatcher'>Youtube</a></p>
+			<p>8. <a href='https://starcatcher21.bandcamp.com/'>Bandcamp</a></p>
+		</Window>
 	)
 }
 
