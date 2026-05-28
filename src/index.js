@@ -7,6 +7,8 @@ import Playlist from './js/playlist.js';
 import Gallery from './js/gallery.js';
 import Wiki from './js/wiki';
 import Biomes from './js/wiki/biomes.js';
+import Mechanics from './js/wiki/mechanics.js';
+import Craftings from './js/wiki/craftings.js';
 import './css/index.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -19,6 +21,8 @@ root.render(
 			<Route path='/gallery' element={<Window name="Gallery" rout="/gallery"><Gallery /></Window>} />
 			<Route path='/wiki' element={<Window name="Wiki" rout="/wiki"><Wiki /></Window>} />
 			<Route path='/wiki/biomes' element={<Window name="Wiki" rout="/wiki/biomes" min='/wiki'><Biomes /></Window>} />
+			<Route path='/wiki/mechanics' element={<Window name="Wiki" rout="/wiki/mechanics" min='/wiki'><Mechanics /></Window>} />
+			<Route path='/wiki/craftings' element={<Window name="Wiki" rout="/wiki/craftings" min='/wiki'><Craftings /></Window>} />
 		</Routes>
 	</HashRouter>
   </React.StrictMode>
