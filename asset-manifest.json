@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.22b9bc88.css",
-    "main.js": "/static/js/main.45662223.js",
+    "main.css": "/static/css/main.e19502ab.css",
+    "main.js": "/static/js/main.403dc7cb.js",
     "static/media/amethyst_spikes.png": "/static/media/amethyst_spikes.716a7f05a62bf13f7582.png",
     "static/media/bone_forest.png": "/static/media/bone_forest.dc75672d041298fdf64b.png",
     "static/media/old_ref.png": "/static/media/old_ref.16de5648f4e4aa546280.png",
@@ -12,6 +12,7 @@
     "static/media/ghost.png": "/static/media/ghost.db3278f6402dd9bfd82d.png",
     "static/media/flower_get.png": "/static/media/flower_get.d20aebedcb5fa2ab4d90.png",
     "static/media/japan.gif": "/static/media/japan.49d4c8ba69606369062d.gif",
+    "static/media/toosilly.png": "/static/media/toosilly.3f302001636cc3c352ea.png",
     "static/media/cosmic.jpg": "/static/media/cosmic.56d787a8975697277305.jpg",
     "static/media/dance.gif": "/static/media/dance.72c3a120e725b616a412.gif",
     "static/media/loadstone.png": "/static/media/loadstone.492dfa0aec16db01bbeb.png",
@@ -47,6 +48,7 @@
     "static/media/).png": "/static/media/).0dcf16056cd27af2b9be.png",
     "static/media/wink3.png": "/static/media/wink3.79b8768e7358686711ba.png",
     "static/media/wink).png": "/static/media/wink).9d9c343e8d7c5fcd5b50.png",
+    "static/media/birb.png": "/static/media/birb.17a1d0c7f67e33d772f8.png",
     "static/media/lenny.png": "/static/media/lenny.66f589841085c60a37a3.png",
     "static/media/meow.png": "/static/media/meow.106a30563c8353984fed.png",
     "static/media/kucnapadexe.png": "/static/media/kucnapadexe.eb9ea1141829f177c809.png",
@@ -55,11 +57,11 @@
     "static/media/eepykucexe.png": "/static/media/eepykucexe.a631b32456c0583ca4b6.png",
     "static/media/transkucexe.png": "/static/media/transkucexe.82e0eff192bee74639ad.png",
     "index.html": "/index.html",
-    "main.22b9bc88.css.map": "/static/css/main.22b9bc88.css.map",
-    "main.45662223.js.map": "/static/js/main.45662223.js.map"
+    "main.e19502ab.css.map": "/static/css/main.e19502ab.css.map",
+    "main.403dc7cb.js.map": "/static/js/main.403dc7cb.js.map"
   },
   "entrypoints": [
-    "static/css/main.22b9bc88.css",
-    "static/js/main.45662223.js"
+    "static/css/main.e19502ab.css",
+    "static/js/main.403dc7cb.js"
   ]
 }
