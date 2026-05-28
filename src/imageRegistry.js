@@ -44,7 +44,7 @@ import img_w_42 from './images/w/).png';
 import img_w_43 from './images/w/3.png';
 import img_w_44 from './images/w/O.png';
 import img_w_45 from './images/w/P.png';
-import img_w_46 from './images/w/bop.gif';
+import img_w_46 from './images/w/bopexe.gif';
 import img_w_47 from './images/w/lenny.png';
 import img_w_48 from './images/w/meow.png';
 import img_w_49 from './images/w/mniejniz3.png';
@@ -105,7 +105,7 @@ export const imageRegistry = {
     '3.png': img_w_43,
     'O.png': img_w_44,
     'P.png': img_w_45,
-    'bop.gif': img_w_46,
+    'bopexe.gif': img_w_46,
     'lenny.png': img_w_47,
     'meow.png': img_w_48,
     'mniejniz3.png': img_w_49,
