@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.22b9bc88.css",
-    "main.js": "/static/js/main.d21e36c0.js",
+    "main.js": "/static/js/main.45662223.js",
     "static/media/amethyst_spikes.png": "/static/media/amethyst_spikes.716a7f05a62bf13f7582.png",
     "static/media/bone_forest.png": "/static/media/bone_forest.dc75672d041298fdf64b.png",
     "static/media/old_ref.png": "/static/media/old_ref.16de5648f4e4aa546280.png",
@@ -16,7 +16,7 @@
     "static/media/dance.gif": "/static/media/dance.72c3a120e725b616a412.gif",
     "static/media/loadstone.png": "/static/media/loadstone.492dfa0aec16db01bbeb.png",
     "static/media/eepykucexe_small.png": "/static/media/eepykucexe_small.b24cab25379a7a4b0d7d.png",
-    "static/media/bop.gif": "/static/media/bop.6a4140e87251ae266d7b.gif",
+    "static/media/bopexe.gif": "/static/media/bopexe.6a8eb7b6533aeea3a020.gif",
     "static/media/transkucexe_small.png": "/static/media/transkucexe_small.969ae197d1fff79b98dc.png",
     "static/media/teapony.png": "/static/media/teapony.f1bdfc879abd61bc78d9.png",
     "static/media/salutkucexe.png": "/static/media/salutkucexe.38608894e3949383a564.png",
@@ -51,14 +51,15 @@
     "static/media/meow.png": "/static/media/meow.106a30563c8353984fed.png",
     "static/media/kucnapadexe.png": "/static/media/kucnapadexe.eb9ea1141829f177c809.png",
     "static/media/boopkucexe.png": "/static/media/boopkucexe.c0624aa12869db61addc.png",
+    "static/media/bop.gif": "/static/media/bop.6a4140e87251ae266d7b.gif",
     "static/media/eepykucexe.png": "/static/media/eepykucexe.a631b32456c0583ca4b6.png",
     "static/media/transkucexe.png": "/static/media/transkucexe.82e0eff192bee74639ad.png",
     "index.html": "/index.html",
     "main.22b9bc88.css.map": "/static/css/main.22b9bc88.css.map",
-    "main.d21e36c0.js.map": "/static/js/main.d21e36c0.js.map"
+    "main.45662223.js.map": "/static/js/main.45662223.js.map"
   },
   "entrypoints": [
     "static/css/main.22b9bc88.css",
-    "static/js/main.d21e36c0.js"
+    "static/js/main.45662223.js"
   ]
 }
