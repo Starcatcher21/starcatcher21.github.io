@@ -95,5 +95,17 @@
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
-
+}
+.image {
+	max-width: 25vw;
+}
+.gallery > div > .window > .bottom {
+		background-image: url("../background.jpg");
+		background-repeat: no-repeat;
+		background-size: 125%;
+}
+.gallery > div > .window > .bottom > img {
+		background-image: url("../background.jpg");
+		background-repeat: no-repeat;
+		background-size: 185%;
 }
