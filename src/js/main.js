@@ -14,9 +14,15 @@ export default function Main() {
 	return (
 		<>
 			{aboutme(data)}
+			<div className='row'>
 			{socials()}
 			{diagnosis(data, "diagnosis")}
 			{diagnosis(data, "intrests")}
+			{diagnosis(data, "don't like")}
+			</div>
+			<Window name="More about me" share={false}>
+				So you've gone so far so i think you want to know more about me. I'm linux user i use artix btw. I'm making a lot of diffrent types of art like programing you can see this website or minecraft mod on my modrinth page or any project on github. Also i make pixel art you can see examples on this website under pony gallery. I don't share a lot of 3d models anywhere but most of them are inside my minecraft mod so just look at it. Also i make music i share them mostly on youtube and bandcamp it's mostly just soundtrack. And i think that's all Ponies Forever.
+			</Window>
 			<Window name="Playlist link" rout="/playlist" share={false} full={true}>
 			<Link to="/playlist">Pony Music playlist visit if you want</Link>
 			</Window>

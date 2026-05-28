@@ -99,13 +99,14 @@
 .image {
 	max-width: 25vw;
 }
-.gallery > div > .window > .bottom {
-		background-image: url("../background.jpg");
-		background-repeat: no-repeat;
-		background-size: 125%;
-}
 .gallery > div > .window > .bottom > img {
 		background-image: url("../background.jpg");
 		background-repeat: no-repeat;
 		background-size: 185%;
+}
+.row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
 }

@@ -1,7 +1,50 @@
 #!/usr/bin/env python3
 import json
 from os import truncate, write
-index = """<!DOCTYPE html>
+import time
+import sys
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+
+
+class OnMyWatch:
+    # Set the directory on watch
+    watchDirectory = "./public/gen.json"
+
+    def __init__(self):
+        self.observer = Observer()
+
+    def run(self):
+        event_handler = Handler()
+        self.observer.schedule(event_handler, self.watchDirectory, recursive = True)
+        self.observer.start()
+        try:
+            while True:
+                time.sleep(5)
+        except:
+            self.observer.stop()
+            print("Observer Stopped")
+
+        self.observer.join()
+
+
+class Handler(FileSystemEventHandler):
+
+    @staticmethod
+    def on_any_event(event):
+        if event.is_directory:
+            return None
+
+        elif event.event_type == 'created':
+            # Event is created, you can process it now
+            print("Watchdog received created event - % s." % event.src_path)
+            gen()
+        elif event.event_type == 'modified':
+            # Event is modified, you can process it now
+            print("Watchdog received modified event - % s." % event.src_path)
+            gen()
+def gen():
+    index = """<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -13,7 +56,7 @@ index = """<!DOCTYPE html>
     <div id="root"></div>
   </body>
 </html>"""
-metas = """		        <title>Pony Website</title>
+    metas = """		        <title>Pony Website</title>
 				<meta property="og:type" content="website"/>
 				<meta name="theme-color" content={color}/>
 				<meta property="og:url" content="https://starcatcher21.github.io/"/>
@@ -28,12 +71,18 @@ metas = """		        <title>Pony Website</title>
 				<meta property="twitter:url" content="https://starcatcher21.github.io/"/>
 				<meta property="twitter:title" content="Website about diffrent form of art"/>
 				<meta property="twitter:image" content={image}/>"""
-with open("./public/gen.json", 'r') as js:
-    data = json.load(js)
-data["aboutme"] = data["aboutme"].replace("${name}", data["name"]).replace("${pronounce}", data["pronounce"])
-data["short"] = data["short"].replace("${name}", data["name"]).replace("${pronounce}", data["pronounce"])
-metas = metas.replace("{color}", '"' + data["color"] + '"').replace("{aboutme}", '"' + data["aboutme"] + '"').replace("{image}", '"' + data["image"] + '"')
-index = index.replace("{head}", metas)
-with open("./public/index.html", "w") as ind:
-    ind.truncate()
-    ind.write(index)
+    with open("./public/gen.json", 'r') as js:
+        data = json.load(js)
+    data["aboutme"] = data["aboutme"].replace("${name}", data["name"]).replace("${pronounce}", data["pronounce"])
+    data["short"] = data["short"].replace("${name}", data["name"]).replace("${pronounce}", data["pronounce"])
+    metas = metas.replace("{color}", '"' + data["color"] + '"').replace("{aboutme}", '"' + data["aboutme"] + '"').replace("{image}", '"' + data["image"] + '"')
+    index = index.replace("{head}", metas)
+    with open("./public/index.html", "w") as ind:
+        ind.truncate()
+        ind.write(index)
+if __name__ == '__main__':
+    if sys.argv[-1] == "--watch":
+        watch = OnMyWatch()
+        watch.run()
+    else:
+        gen()
