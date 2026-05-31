@@ -1,5 +1,6 @@
 import {Link} from 'react-router-dom';
 import Window from './decorator';
+import { Banner } from './decorator';
 import {useEffect, useState} from 'react';
 
 export default function Main() {
@@ -13,6 +14,7 @@ export default function Main() {
   	}, []);
 	return (
 		<>
+			<Banner name="Stargazer out now in beta" link="https://modrinth.com/mod/stargazer" />
 			{aboutme(data)}
 			<div className='row'>
 			{socials()}

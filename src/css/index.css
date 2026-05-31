@@ -5,6 +5,7 @@
 	--margin: 5px;
 	--border: 5px;
 	--padding: 5px;
+	--red: #F38BA8;
 }
 
 .window {
@@ -109,4 +110,16 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 	justify-content: center;
+}
+.banner {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: var(--padding);
+	border: var(--border) solid var(--accent);
+}
+.here {
+	background: var(--red);
+	color: var(--bg);
+	padding: var(--padding);
 }

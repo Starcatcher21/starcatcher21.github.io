@@ -30,3 +30,15 @@ export default function Window({name, rout, children, min="/", use = true, share
 		</div>
 	)
 }
+export function Banner({name, link}) {
+	return (
+		<div className="banner">
+			<div className="left">
+				{name}
+			</div>
+			<div className="right">
+				<a className="here" href={link}>Click Here</a>
+			</div>
+		</div>
+	)
+}
