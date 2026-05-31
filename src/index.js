@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import Main from './js/main.js';
 import Window from './js/decorator.js';
+import { Banner } from './js/decorator.js';
 import Playlist from './js/playlist.js';
 import Gallery from './js/gallery.js';
 import Wiki from './js/wiki';
@@ -19,7 +20,7 @@ root.render(
 			<Route path="/" element={<Main />} />
 			<Route path='/playlist' element={<Window name="Fav Playlist" rout="/playlist"><Playlist /></Window>} />
 			<Route path='/gallery' element={<Window name="Gallery" rout="/gallery"><Gallery /></Window>} />
-			<Route path='/wiki' element={<Window name="Wiki" rout="/wiki"><Wiki /></Window>} />
+			<Route path='/wiki' element={<><Banner name="This Wiki is incompleat" link="https://modrinth.com/mod/stargazer"/><Window name="Wiki" rout="/wiki"><Wiki /></Window></>} />
 			<Route path='/wiki/biomes' element={<Window name="Wiki" rout="/wiki/biomes" min='/wiki'><Biomes /></Window>} />
 			<Route path='/wiki/mechanics' element={<Window name="Wiki" rout="/wiki/mechanics" min='/wiki'><Mechanics /></Window>} />
 			<Route path='/wiki/craftings' element={<Window name="Wiki" rout="/wiki/craftings" min='/wiki'><Craftings /></Window>} />
