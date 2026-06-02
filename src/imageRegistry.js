@@ -35,25 +35,26 @@ import img_photos_33 from './images/photos/kucnapadexe_small.png';
 import img_photos_34 from './images/photos/kucswagexe.png';
 import img_photos_35 from './images/photos/matterkucexe.png';
 import img_photos_36 from './images/photos/old_ref.png';
-import img_photos_37 from './images/photos/randewu.png';
-import img_photos_38 from './images/photos/salutkucexe.png';
-import img_photos_39 from './images/photos/stargaze.png';
-import img_photos_40 from './images/photos/teapony.png';
-import img_photos_41 from './images/photos/toosilly.png';
-import img_photos_42 from './images/photos/transkucexe.png';
-import img_photos_43 from './images/photos/transkucexe_small.png';
-import img_w_44 from './images/w/).png';
-import img_w_45 from './images/w/3.png';
-import img_w_46 from './images/w/O.png';
-import img_w_47 from './images/w/P.png';
-import img_w_48 from './images/w/bopexe.gif';
-import img_w_49 from './images/w/lenny.png';
-import img_w_50 from './images/w/meow.png';
-import img_w_51 from './images/w/mniejniz3.png';
-import img_w_52 from './images/w/wink).png';
-import img_w_53 from './images/w/wink3.png';
-import img_w_54 from './images/w/winkO.png';
-import img_w_55 from './images/w/winkP.png';
+import img_photos_37 from './images/photos/ponytouch.png';
+import img_photos_38 from './images/photos/randewu.png';
+import img_photos_39 from './images/photos/salutkucexe.png';
+import img_photos_40 from './images/photos/stargaze.png';
+import img_photos_41 from './images/photos/teapony.png';
+import img_photos_42 from './images/photos/toosilly.png';
+import img_photos_43 from './images/photos/transkucexe.png';
+import img_photos_44 from './images/photos/transkucexe_small.png';
+import img_w_45 from './images/w/).png';
+import img_w_46 from './images/w/3.png';
+import img_w_47 from './images/w/O.png';
+import img_w_48 from './images/w/P.png';
+import img_w_49 from './images/w/bopexe.gif';
+import img_w_50 from './images/w/lenny.png';
+import img_w_51 from './images/w/meow.png';
+import img_w_52 from './images/w/mniejniz3.png';
+import img_w_53 from './images/w/wink).png';
+import img_w_54 from './images/w/wink3.png';
+import img_w_55 from './images/w/winkO.png';
+import img_w_56 from './images/w/winkP.png';
 
 export const imageRegistry = {
   'emotes': {
@@ -96,26 +97,27 @@ export const imageRegistry = {
     'kucswagexe.png': img_photos_34,
     'matterkucexe.png': img_photos_35,
     'old_ref.png': img_photos_36,
-    'randewu.png': img_photos_37,
-    'salutkucexe.png': img_photos_38,
-    'stargaze.png': img_photos_39,
-    'teapony.png': img_photos_40,
-    'toosilly.png': img_photos_41,
-    'transkucexe.png': img_photos_42,
-    'transkucexe_small.png': img_photos_43,
+    'ponytouch.png': img_photos_37,
+    'randewu.png': img_photos_38,
+    'salutkucexe.png': img_photos_39,
+    'stargaze.png': img_photos_40,
+    'teapony.png': img_photos_41,
+    'toosilly.png': img_photos_42,
+    'transkucexe.png': img_photos_43,
+    'transkucexe_small.png': img_photos_44,
   },
   'w': {
-    ').png': img_w_44,
-    '3.png': img_w_45,
-    'O.png': img_w_46,
-    'P.png': img_w_47,
-    'bopexe.gif': img_w_48,
-    'lenny.png': img_w_49,
-    'meow.png': img_w_50,
-    'mniejniz3.png': img_w_51,
-    'wink).png': img_w_52,
-    'wink3.png': img_w_53,
-    'winkO.png': img_w_54,
-    'winkP.png': img_w_55,
+    ').png': img_w_45,
+    '3.png': img_w_46,
+    'O.png': img_w_47,
+    'P.png': img_w_48,
+    'bopexe.gif': img_w_49,
+    'lenny.png': img_w_50,
+    'meow.png': img_w_51,
+    'mniejniz3.png': img_w_52,
+    'wink).png': img_w_53,
+    'wink3.png': img_w_54,
+    'winkO.png': img_w_55,
+    'winkP.png': img_w_56,
   },
 };
