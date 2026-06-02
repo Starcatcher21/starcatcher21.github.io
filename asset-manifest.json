@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.ff6f1d7e.css",
-    "main.js": "/static/js/main.e22e18c4.js",
+    "main.js": "/static/js/main.6946784c.js",
     "static/media/amethyst_spikes.png": "/static/media/amethyst_spikes.716a7f05a62bf13f7582.png",
     "static/media/bone_forest.png": "/static/media/bone_forest.dc75672d041298fdf64b.png",
     "static/media/old_ref.png": "/static/media/old_ref.16de5648f4e4aa546280.png",
@@ -12,6 +12,7 @@
     "static/media/ghost.png": "/static/media/ghost.db3278f6402dd9bfd82d.png",
     "static/media/flower_get.png": "/static/media/flower_get.d20aebedcb5fa2ab4d90.png",
     "static/media/japan.gif": "/static/media/japan.49d4c8ba69606369062d.gif",
+    "static/media/ponytouch.png": "/static/media/ponytouch.9ef5e73345365851a1b4.png",
     "static/media/toosilly.png": "/static/media/toosilly.3f302001636cc3c352ea.png",
     "static/media/cosmic.jpg": "/static/media/cosmic.56d787a8975697277305.jpg",
     "static/media/dance.gif": "/static/media/dance.72c3a120e725b616a412.gif",
@@ -58,10 +59,10 @@
     "static/media/transkucexe.png": "/static/media/transkucexe.82e0eff192bee74639ad.png",
     "index.html": "/index.html",
     "main.ff6f1d7e.css.map": "/static/css/main.ff6f1d7e.css.map",
-    "main.e22e18c4.js.map": "/static/js/main.e22e18c4.js.map"
+    "main.6946784c.js.map": "/static/js/main.6946784c.js.map"
   },
   "entrypoints": [
     "static/css/main.ff6f1d7e.css",
-    "static/js/main.e22e18c4.js"
+    "static/js/main.6946784c.js"
   ]
 }
