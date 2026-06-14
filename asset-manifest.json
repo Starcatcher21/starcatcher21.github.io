@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.7a975b3c.css",
-    "main.js": "/static/js/main.cbd2fbf1.js",
+    "main.js": "/static/js/main.61a681b5.js",
     "static/media/amethyst_spikes.png": "/static/media/amethyst_spikes.716a7f05a62bf13f7582.png",
     "static/media/bone_forest.png": "/static/media/bone_forest.dc75672d041298fdf64b.png",
     "static/media/old_ref.png": "/static/media/old_ref.16de5648f4e4aa546280.png",
@@ -59,10 +59,10 @@
     "static/media/transkucexe.png": "/static/media/transkucexe.82e0eff192bee74639ad.png",
     "index.html": "/index.html",
     "main.7a975b3c.css.map": "/static/css/main.7a975b3c.css.map",
-    "main.cbd2fbf1.js.map": "/static/js/main.cbd2fbf1.js.map"
+    "main.61a681b5.js.map": "/static/js/main.61a681b5.js.map"
   },
   "entrypoints": [
     "static/css/main.7a975b3c.css",
-    "static/js/main.cbd2fbf1.js"
+    "static/js/main.61a681b5.js"
   ]
 }
