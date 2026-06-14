@@ -123,3 +123,6 @@
 	color: var(--bg);
 	padding: var(--padding);
 }
+.topmusic {
+	display: flex;
+}

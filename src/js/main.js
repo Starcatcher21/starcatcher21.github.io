@@ -34,6 +34,7 @@ export default function Main() {
 			<Window name="Stargazer Wiki" rout="/wiki" share={false} full={true}>
 			<Link to="/wiki">Wiki to my minecraft mod called stargazer</Link><a href='https://modrinth.com/mod/stargazer'>Link to mod</a>
 			</Window>
+			{top5music(data)}
 		</>
 	)
 }
@@ -84,6 +85,25 @@ function diagnosis(data, what) {
 					<p>{num}. {d}</p>
 				)
 			})}
+		</Window>
+	)
+}
+
+function top5music(data) {
+	if (data["top5music"] === undefined) {
+		return (<></>)
+	}
+	return (
+		<Window name="Top 5 music" rout='/' share={false}>
+			<div className="topmusic">
+			{data["top5music"].map((d,i) => {
+				return <div className="topmusic2">
+					<img src={d["img"]}></img><br />
+					{d["name"]}<br />
+					{d["author"]}
+				</div>
+			})}
+			</div>
 		</Window>
 	)
 }
