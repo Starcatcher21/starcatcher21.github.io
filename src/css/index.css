@@ -125,4 +125,13 @@
 }
 .topmusic {
 	display: flex;
+	justify-content: space-between;
+}
+.topmusic2 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+.topmusic2 > img {
+	width: 10vw;
 }
