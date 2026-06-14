@@ -2,13 +2,17 @@
 	"name": "Bonnie",
 	"nickname": "Starcatcher",
 	"site_name": "Starcatcher Website",
-	"color": "#c6a0f6",
+	"color": "#CBA6F7",
 	"pronounce": "she/they/it",
 	"intrests": ["Stars", "Ponies", "Drawing", "Programing", "Music", "Technology", "and  more"],
-	"aboutme": "Hi I'm ${name} ${pronounce} and this is my website where i share my work. I make many types of art like pixel art, 3d models, minecraft mods, music and more. I hope you enjoy spending time on this site.",
-	"short": "Hi I'm ${name} ${pronounce} and I make stuff come here to watch what I make.",
+	"aboutme": "Hi I'm ${name} (${pronounce}) and this is my website where i share my work. I make many types of art like pixel art, 3d models, minecraft mods, music and more. I hope you enjoy spending time on this site.",
+	"short": "Hi I'm ${name} (${pronounce}) and I make stuff come here to watch what I make.",
 	"image": "https://starcatcher21.github.io/photos/teapony.png",
-	"diagnosis": ["Depression", "Schizophrenia", "Transgenderism", "Poland Citizen", "Dyslexia", "Speech Disorder", "Dysgraphia", "Non official ADHD", "Non official Autism", "Non officialy Kleptomaniac"],
+	"diagnosis": ["Depression", "Schizophrenia", "Transgenderism", "Poland Citizen", "Dyslexia", "Speech Disorder", "Dysgraphia", "Non official ADHD", "Non official Autism"],
+	"socials": [{"name":  "Discord", "src":  "https://discordapp.com/users/398872083053936640"}, {"name": "Modrinth", "src":  "https://modrinth.com/user/Starcatcher"}, {"name": "Instagram", "src":  "https://www.instagram.com/bonnie_starcatcher/"}, {"name":  "Toyhouse", "src": "https://toyhou.se/Starcatcher_"}, {"name": "Steam", "src": "https://steamcommunity.com/id/star_catcher_/"}, {"name": "GitHub", "src":  "https://github.com/Starcatcher21"}, {"name": "YouTube", "src": "https://m.youtube.com/@bonnie_starcatcher"}, {"name": "Bandcamp", "src": "https://starcatcher21.bandcamp.com/"}],
 	"don't like": ["Generative Ai", "Popular music", "Most of People", "Life"],
-	"top5music": [{"name": "Bury it", "author":  "bumr", "img": "https://starcatcher21.github.io/music/buryit.jpg"}, {"name": "Constallation Cradle", "author":  "Vylet Pony", "img":  "https://starcatcher21.github.io/music/carousel.png"}, {"name":  "Bukiet róż", "author": "Bliss.", "img":  "https://starcatcher21.github.io/music/bukietroz.jpg"}, {"name":  "Paper Dolls", "author": "Stomach Book", "img":  "https://starcatcher21.github.io/music/paperdolls.jpg"}, {"name":  "Fuck My Life", "author": "Eleven", "img":  "https://starcatcher21.github.io/music/fml.jpg"}]
+	"top5music": [{"name": "Bury it", "author":  "bumr", "img": "buryit.jpg"}, {"name": "Constallation Cradle", "author":  "Vylet Pony", "img":  "carousel.png"}, {"name":  "Bukiet róż", "author": "Bliss.", "img":  "bukietroz.jpg"}, {"name":  "Paper Dolls", "author": "Stomach Book", "img":  "paperdolls.jpg"}, {"name":  "Fuck My Life", "author": "Eleven", "img":  "fml.jpg"}],
+	"top5animations": [{"name":  "Owl House", "img": "owl.png"}, {"name":  "The Amazing Digital Circus", "img":  "circus.png"}, {"name": "Adventure Time", "img": "at.png"}, {"name": "How to Train Your Dragon", "img":  "httyd.png"}, {"name": "My Little Pony", "img":  "mlp.png"}],
+	"animations": [{"name":  "Owl House", "rating": 10, "img": "owl.png"}, {"name":  "The Amazing Digital Circus", "rating": 9, "img":  "circus.png"}, {"name": "Adventure Time", "rating":  10, "img": "at.png"}, {"name": "How to Train Your Dragon", "rating":  9, "img":  "httyd.png"}, {"name": "My Little Pony", "rating": 10, "img":  "mlp.png"}, {"name": "Rick and Morty", "rating": 7, "img": "rick.png"}, {"name": "Infinity train", "rating": 8, "img": "train.png"}, {"name": "Murder Drones", "rating": 9, "img": "drones.png"}],
+	"games": [{"name": "Minecraft", "rating":  10, "img":  "minecraft.png"}, {"name": "Celeste", "rating":  10, "img": "celeste.png"}, {"name":  "Don't Starve", "rating": 9, "img": "starve.png"}, {"name": "Balatro", "rating": 9, "img": "balatro.png"}, {"name": "Stardew Valley", "rating": 10, "img": "stardew.png"}, {"name": "The Binding of Isaac", "rating": 8, "img": "isaac.png"}, {"name": "Kao the Kagaroo Round 2", "rating": 9, "img": "kao.png"}, {"name": "Portal", "rating":  9, "img":  "portal.png"}, {"name": "Portal 2", "rating":  10, "img": "portal2.png"}, {"name": "Cult of the Lamb", "rating": 8, "img": "cult.png"}]
 }

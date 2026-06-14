@@ -41,7 +41,6 @@
 .window > .top > .right {
 	display: flex;
 	align-self: flex-end;
-	min-width: 220px;
 	justify-content: flex-end;
 }
 .aboutme {
@@ -134,4 +133,33 @@
 }
 .topmusic2 > img {
 	width: 10vw;
+}
+.anim > img {
+	width: 10vw;
+}
+.animations {
+	display: flex;
+	flex-wrap: wrap;
+}
+.animations > .window {
+	max-width: 45vw;
+}
+
+.gam > img {
+	width: 10vw;
+}
+.gam > p {
+	color: var(--accent);
+	font-size: 3vw;
+}
+.anim > p {
+	color: var(--accent);
+	font-size: 3vw;
+}
+.games {
+	display: flex;
+	flex-wrap: wrap;
+}
+.games > .window {
+	max-width: 45vw;
 }

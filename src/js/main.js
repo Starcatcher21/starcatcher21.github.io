@@ -17,7 +17,7 @@ export default function Main() {
 			<Banner name="Stargazer out now in beta" link="https://modrinth.com/mod/stargazer" />
 			{aboutme(data)}
 			<div className='row'>
-			{socials()}
+			{socials(data, "socials")}
 			{diagnosis(data, "diagnosis")}
 			{diagnosis(data, "intrests")}
 			{diagnosis(data, "don't like")}
@@ -28,29 +28,22 @@ export default function Main() {
 			<Window name="Playlist link" rout="/playlist" share={false} full={true}>
 			<Link to="/playlist">Pony Music playlist visit if you want</Link>
 			</Window>
+			{top5music(data)}
 			<Window name="Pony Gallery" rout="/gallery" share={false} full={true}>
-			<Link to="/gallery">visit all my pony drawings</Link>
+			<Link to="/gallery">visit all my pony drawings gallery</Link>
 			</Window>
 			<Window name="Stargazer Wiki" rout="/wiki" share={false} full={true}>
-			<Link to="/wiki">Wiki to my minecraft mod called stargazer</Link><a href='https://modrinth.com/mod/stargazer'>Link to mod</a>
+			<Link to="/wiki">Wiki to my minecraft mod called stargazer (Not finished wiki)</Link><a href='https://modrinth.com/mod/stargazer'>Link to mod</a>
 			</Window>
-			{top5music(data)}
+			<Window name="Animations and video" rout="/animations" share={false} full={true}>
+				<Link to="/animations">Raiting animations and videos i watched</Link>
+			</Window>
+			{top5(data, "animations")}
+			<Window name="Games" rout="/games" share={false} full={true}>
+				<Link to="/games">Raiting of games i played</Link>
+			</Window>
+			{top5(data, "games")}
 		</>
-	)
-}
-
-function socials() {
-	return (
-		<Window name="Socials" rout="/" share={false}>
-			<p>1. <a href='https://discordapp.com/users/398872083053936640'>Discord</a></p>
-			<p>2. <a href='https://modrinth.com/user/Starcatcher'>Modrinth</a></p>
-			<p>3. <a href='https://www.instagram.com/bonnie_starcatcher/'>Instagram</a></p>
-			<p>4. <a href='https://toyhou.se/Starcatcher_'>Toyhouse</a></p>
-			<p>5. <a href='https://steamcommunity.com/id/star_catcher_/'>Steam</a></p>
-			<p>6. <a href='https://github.com/Starcatcher21'>Github</a></p>
-			<p>7. <a href='https://m.youtube.com/@bonnie_starcatcher'>Youtube</a></p>
-			<p>8. <a href='https://starcatcher21.bandcamp.com/'>Bandcamp</a></p>
-		</Window>
 	)
 }
 
@@ -89,20 +82,57 @@ function diagnosis(data, what) {
 	)
 }
 
+function socials(data, what) {
+	if (data[what] === undefined) {
+		return (<></>)
+	}
+	return (
+		<Window name={what.charAt(0).toUpperCase() + what.slice(1)} rout='/' share={false}>
+			{data[what].map((d,i) => {
+				var num = i + 1;
+				return (
+					<p>{num}. <a href={d["src"]}>{d["name"]}</a></p>
+				)
+			})}
+		</Window>
+	)
+}
+
 function top5music(data) {
 	if (data["top5music"] === undefined) {
 		return (<></>)
 	}
 	return (
-		<Window name="Top 5 music" rout='/' share={false}>
+		<Window name="Top 5 Music" rout='/' share={false}>
 			<div className="topmusic">
 			{data["top5music"].map((d,i) => {
 				return <div className="topmusic2">
-					<img src={d["img"]}></img><br />
+					<img src={"https://starcatcher21.github.io/music/"+d["img"]}></img><br />
 					{d["name"]}<br />
 					{d["author"]}
 				</div>
 			})}
+			</div>
+		</Window>
+	)
+}
+
+function top5(data, what) {
+	if (data[what] === undefined) {
+		return (<></>)
+	}
+	var sorted = data[what].sort((a,b) => b["rating"] - a["rating"]);
+	return (
+		<Window name={"Top 5 " + what.charAt(0).toUpperCase() + what.slice(1)} rout='/' share={false}>
+			<div className="topmusic">
+				{sorted.map((d,i) => {
+					if (i >= 5) {
+						return <></>
+					}
+					return <div className="topmusic2">
+						<img src={"https://starcatcher21.github.io/" + what + "/"+d["img"]} alt={d["name"]}></img><br />
+					</div>
+				})}
 			</div>
 		</Window>
 	)
