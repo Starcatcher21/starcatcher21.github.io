@@ -25,13 +25,13 @@
 		{"name": "The Amazing World of Gumball", "rating": 6, "img": "gumball.png"},
 		{"name": "Regular Show", "rating": 10, "img": "regular.png"},
 		{"name": "Angelo Rules", "rating": 7, "img": "angelo.png"},
-		{"name": "Robotboy", "rating": 8, "img": "robotnoy.png"},
+		{"name": "Robotboy", "rating": 8, "img": "robotboy.png"},
 		{"name": "Over the Garden Wall", "rating": 8, "img": "garden.png"},
 		{"name": "Puss in Boots the Last Wish", "rating": 10, "img": "lastwish.png"},
 		{"name": "Teen Titans GO", "rating": 3, "img": "ttg.png"},
 		{"name": "Teen Titans", "rating": 8, "img": "teentitans.png"},
 		{"name": "Titans", "rating": 8, "img": "titans.png"},
-		{"name": "Spider-Man: Across the Spider-Verse", "rating": 9, "img": "spirderverse.png"},
+		{"name": "Spider-Man: Across the Spider-Verse", "rating": 9, "img": "spiderverse.png"},
 		{"name": "Metal Family", "rating": 8, "img": "metal.png"}
 	],
 	"games": [
