@@ -8,12 +8,24 @@
 	--red: #F38BA8;
 }
 
-.window {
-	background-color: var(--bg);
-	color: var(--fg);
-	border: var(--border) solid var(--accent);
-	border-radius: 5px;
-	margin: var(--margin);
+@media screen and (max-width: 650px) {
+	.window {
+		background-color: var(--bg);
+		color: var(--fg);
+		border: var(--border) solid var(--accent);
+		border-radius: 5px;
+		margin: var(--margin);
+		min-width: 95%;
+	}
+}
+@media screen and (min-width: 651px) {
+	.window {
+		background-color: var(--bg);
+		color: var(--fg);
+		border: var(--border) solid var(--accent);
+		border-radius: 5px;
+		margin: var(--margin);
+	}
 }
 .window > .top {
 	padding: var(--padding);
@@ -69,10 +81,16 @@
 .gallery > div > img {
 	max-width: 15vw;
 }
+
+@media screen and (max-width: 650px) {
+	.gallery > div {
+		min-width: 95%;
+	}
+}
 .gallery {
 	display: flex;
 	flex-direction: row;
-	flex-wrap:wrap;
+	flex-wrap: wrap;
 }
 .center {
 	display: flex;
@@ -83,9 +101,17 @@
 	flex-direction: row;
 	flex-wrap: wrap;
 }
-.pages > .window {
-	min-width: 35vw;
-	max-width: 40vw;
+
+@media screen and (max-width: 650px) {
+	.pages > .window {
+		min-width: 95%;
+	}
+}
+@media screen and (min-width: 651px) {
+	.pages > .window {
+		min-width: 35vw;
+		max-width: 95%;
+	}
 }
 .pages > .window > .bottom > a > img {
 	min-width: 34vw;
@@ -150,11 +176,11 @@
 }
 .gam > p {
 	color: var(--accent);
-	font-size: 3vw;
+	font-size: 25px;
 }
 .anim > p {
 	color: var(--accent);
-	font-size: 3vw;
+	font-size: 25px;
 }
 .games {
 	display: flex;
@@ -162,4 +188,19 @@
 }
 .games > .window {
 	max-width: 45vw;
+}
+.KeyBox {
+	display: flex;
+	font-size: 40px;
+	flex-wrap: wrap;
+}
+.Button {
+	border: var(--border) solid var(--accent);
+	margin: var(--padding);
+	border-radius: 5px;
+	padding: var(--padding);
+	cursor: pointer;
+}
+.stamps > img{
+	padding: var(--padding);
 }

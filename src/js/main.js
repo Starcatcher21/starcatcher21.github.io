@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import {Link, Scripts} from 'react-router-dom';
 import Window from './decorator';
 import { Banner } from './decorator';
 import {useEffect, useState} from 'react';
@@ -12,6 +12,25 @@ export default function Main() {
       		.then(data => setData(data))
       		.catch(error => console.error('Error fetching data:', error));
   	}, []);
+
+	useEffect(() => {
+		const script = document.createElement('script');
+		script.src = "https://transring.neocities.org/ring.js";
+		script.async = true;
+
+		// Find the container and append it
+		const container = document.getElementById('webring-container');
+		if (container) {
+			container.appendChild(script);
+		}
+
+		// Clean up the script if the component unmounts
+		return () => {
+			if (container) {
+				container.innerHTML = '';
+			}
+		};
+	}, []);
 	return (
 		<>
 			<Banner name="Stargazer out now in beta" link="https://modrinth.com/mod/stargazer" />
@@ -22,6 +41,10 @@ export default function Main() {
 			{diagnosis(data, "intrests")}
 			{diagnosis(data, "don't like")}
 			</div>
+			<Window name="Blinky" share={false} full={false} >
+				Copy my blinky to your website.
+				<a href="http://starcatcher21.github.io"><img src="https://starcatcher21.github.io/blinkies/starcatcher.gif" /></a>
+			</Window>
 			<Window name="More about me" share={false}>
 				So you've gone so far so i think you want to know more about me. I'm linux user i use artix btw. I'm making a lot of diffrent types of art like programing you can see this website or minecraft mod on my modrinth page or any project on github. Also i make pixel art you can see examples on this website under pony gallery. I don't share a lot of 3d models anywhere but most of them are inside my minecraft mod so just look at it. Also i make music i share them mostly on youtube and bandcamp it's mostly just soundtrack. And i think that's all Ponies Forever.
 			</Window>
@@ -43,8 +66,30 @@ export default function Main() {
 				<Link to="/games">Raiting of games i played</Link>
 			</Window>
 			{top5(data, "games")}
+			<Window name="Translator" rout="/translator" share={false} full={true}>
+				<Link to="/translator">Translator to languages like braill, standard galactic alphabet or illuminati</Link>
+			</Window>
+			<Window name="Stamps" share={false} full={false}>
+				<Window name="Countries" share={false} full={false}>{stamps(data, "country")}</Window>
+				<Window name="Other" share={false} full={false}>{stamps(data, "stamps")}</Window>
+			</Window>
+			<Window name="Webrings" share={false} full={false}>
+				<div id="webring-container"></div>
+			</Window>
 		</>
 	)
+}
+function stamps(data, stamp) {
+	if(data === {} || data[stamp] === undefined) {
+		return <></>
+	}
+	return <div className="stamps">
+		{data[stamp].map((d) => {
+			return (
+				<img src={d}></img>
+			)
+		})}
+	</div>
 }
 
 function aboutme(data) {
