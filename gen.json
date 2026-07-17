@@ -11,6 +11,29 @@
 	"diagnosis": ["Depression", "Schizophrenia", "Transgenderism", "Poland Citizen", "Dyslexia", "Speech Disorder", "Dysgraphia", "Non official ADHD", "Non official Autism"],
 	"socials": [{"name":  "Discord", "src":  "https://discordapp.com/users/398872083053936640"}, {"name": "Modrinth", "src":  "https://modrinth.com/user/Starcatcher"}, {"name": "Instagram", "src":  "https://www.instagram.com/bonnie_starcatcher/"}, {"name":  "Toyhouse", "src": "https://toyhou.se/Starcatcher_"}, {"name": "Steam", "src": "https://steamcommunity.com/id/star_catcher_/"}, {"name": "GitHub", "src":  "https://github.com/Starcatcher21"}, {"name": "YouTube", "src": "https://m.youtube.com/@bonnie_starcatcher"}, {"name": "Bandcamp", "src": "https://starcatcher21.bandcamp.com/"}],
 	"don't like": ["Generative Ai", "Popular music", "Most of People", "Life"],
+	"country": [
+		"https://starcatcher21.github.io/stamps/poland.png",
+		"https://starcatcher21.github.io/stamps/czechia.png",
+		"https://starcatcher21.github.io/stamps/litwa.png",
+		"https://starcatcher21.github.io/stamps/germany.png"
+	],
+	"stamps": [
+		"https://y2k.neocities.org/stamps/awesome_overload_by_mr_stamp.gif",
+		"https://y2k.neocities.org/stamps/tumblr_inline_pe6lifzHgx1v11djx_1280.gif",
+		"https://y2k.neocities.org/stamps/tumblr_inline_pe6ls6p1WL1v11djx_1280.gif",
+		"https://y2k.neocities.org/stamps/iygbnjki.gif",
+		"https://y2k.neocities.org/stamps2/15_by_seweraat-dcczode.png",
+		"https://y2k.neocities.org/stamps2/i_never_understood_the_hate_by_teruing-d6z5fbt.png",
+		"https://y2k.neocities.org/stamps2/tumblr_pbbd1hGBbb1xz2nuuo4_100.png",
+		"https://64.media.tumblr.com/17a2d176bc056a5346e39cdadf672382/0a314c1722fc4072-05/s100x200/0623552e903d37e8e53434088305ecb51cfc5b3b.gifv",
+		"https://64.media.tumblr.com/ccfbc638b69de1c0d35afac0dc5e7b41/65ab56dd16d6c002-5c/s100x200/76cb223e364c0d86577cb370b216c957f3715c66.pnj",
+		"https://64.media.tumblr.com/ba877654cc1c035ccbf5f9d24ac317db/65ab56dd16d6c002-8c/s100x200/f71d6809d5fc84b2a071848a1515bf3f395fe234.gifv",
+		"https://adriansblinkiecollection.neocities.org/stamps/e77.png",
+		"https://paleking.carrd.co/assets/images/gallery08/4f2d83aa.png?v26071698921061",
+		"https://paleking.carrd.co/assets/images/gallery03/88627979.png?v26071698921061",
+		"https://paleking.carrd.co/assets/images/gallery16/8465f7bb.png?v26071698921061",
+		"https://paleking.carrd.co/assets/images/gallery05/257f5104.png?v26071698921061"
+	],
 	"top5music": [{"name": "Bury it", "author":  "bumr", "img": "buryit.jpg"}, {"name": "Constallation Cradle", "author":  "Vylet Pony", "img":  "carousel.png"}, {"name":  "Bukiet róż", "author": "Bliss.", "img":  "bukietroz.jpg"}, {"name":  "Paper Dolls", "author": "Stomach Book", "img":  "paperdolls.jpg"}, {"name":  "Fuck My Life", "author": "Eleven", "img":  "fml.jpg"}],
 	"animations": [
 		{"name":  "Owl House", "rating": 10, "img": "owl.png"},
