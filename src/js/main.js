@@ -31,6 +31,7 @@ export default function Main() {
 			}
 		};
 	}, []);
+	const blink = '<a href="http://starcatcher21.github.io"><img src="https://starcatcher21.github.io/blinkies/starcatcher.gif" /></a>'
 	return (
 		<>
 			<Banner name="Stargazer out now in beta" link="https://modrinth.com/mod/stargazer" />
@@ -44,6 +45,7 @@ export default function Main() {
 			<Window name="Blinky" share={false} full={false} >
 				Copy my blinky to your website.
 				<a href="http://starcatcher21.github.io"><img src="https://starcatcher21.github.io/blinkies/starcatcher.gif" /></a>
+				<textarea>{blink}</textarea>
 			</Window>
 			<Window name="More about me" share={false}>
 				So you've gone so far so i think you want to know more about me. I'm linux user i use artix btw. I'm making a lot of diffrent types of art like programing you can see this website or minecraft mod on my modrinth page or any project on github. Also i make pixel art you can see examples on this website under pony gallery. I don't share a lot of 3d models anywhere but most of them are inside my minecraft mod so just look at it. Also i make music i share them mostly on youtube and bandcamp it's mostly just soundtrack. And i think that's all Ponies Forever.
