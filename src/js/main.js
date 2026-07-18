@@ -78,7 +78,7 @@ export default function Main() {
 			<Window name="Webrings" share={false} full={false}>
 				<div id="webring-container"></div>
 			</Window>
-			<Window name="Cool sites" share={false} full={false}>
+			<Window name="Blinkies" share={false} full={false}>
 				{blinkies(data)}
 			</Window>
 			<Window name="Guestbook">
@@ -111,6 +111,7 @@ function blinkies(data) {
 				<a href={a[1]}><img src={a[0]}></img></a>
 			)
 		})}
+		<iframe src="https://lavender-but-bread.neocities.org/buttons/piano-button.html" width="88" height="31"></iframe>
 	</div>
 }
 
