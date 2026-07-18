@@ -13,7 +13,7 @@ export default function Window({name, rout, children, min="/", use = true, share
 	}
 	return(
 		<div className="window">
-			<div className="top">
+			<div className="top" id="pixel">
 				<div className="left">
 					{name}
 				</div>

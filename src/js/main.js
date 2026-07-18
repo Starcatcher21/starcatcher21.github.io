@@ -81,6 +81,9 @@ export default function Main() {
 			<Window name="Cool sites" share={false} full={false}>
 				{blinkies(data)}
 			</Window>
+			<Window name="Guestbook">
+				<iframe className="guestbook" src="https://starcatcher.atabook.org/"></iframe>
+			</Window>
 		</>
 	)
 }

@@ -34,6 +34,13 @@
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
+	background: linear-gradient(90deg, var(--bg), var(--bg), var(--accent));
+}
+.window > .top > * {
+	background: transparent;
+}
+.guestbook {
+	height: 500px;
 }
 .window > .bottom{
 	min-height: 0px;
@@ -210,6 +217,6 @@
 	max-width: 109px;
 	max-height: 66px;
 }
-.blinkies > img{
+.blinkies > a > img {
 	padding: var(--padding);
 }
