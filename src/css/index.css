@@ -203,4 +203,13 @@
 }
 .stamps > img{
 	padding: var(--padding);
+	width: 109px;
+	height: 66px;
+	min-width: 109px;
+	min-height: 66px;
+	max-width: 109px;
+	max-height: 66px;
+}
+.blinkies > img{
+	padding: var(--padding);
 }

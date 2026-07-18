@@ -102,7 +102,7 @@ function blinkies(data) {
 		return <></>
 	}
 
-	return <div className="stamps">
+	return <div className="blinkies">
 		{Object.entries(data["blinkies"]).map((a,d) => {
 			return (
 				<a href={a[1]}><img src={a[0]}></img></a>
