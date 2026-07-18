@@ -78,6 +78,9 @@ export default function Main() {
 			<Window name="Webrings" share={false} full={false}>
 				<div id="webring-container"></div>
 			</Window>
+			<Window name="Cool sites" share={false} full={false}>
+				{blinkies(data)}
+			</Window>
 		</>
 	)
 }
@@ -89,6 +92,20 @@ function stamps(data, stamp) {
 		{data[stamp].map((d) => {
 			return (
 				<img src={d}></img>
+			)
+		})}
+	</div>
+}
+
+function blinkies(data) {
+	if (data === {} || data["blinkies"] === undefined) {
+		return <></>
+	}
+
+	return <div className="stamps">
+		{Object.entries(data["blinkies"]).map((a,d) => {
+			return (
+				<a href={a[1]}><img src={a[0]}></img></a>
 			)
 		})}
 	</div>
