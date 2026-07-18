@@ -37,7 +37,11 @@
 	],
 	"blinkies": {
 		"https://starcatcher21.github.io/blinkies/power.GIF": "https://www.vyletpony.com/",
-		"https://dexterdaybreaker.neocities.org/Images/ButtonLogo.png": "https://dexterdaybreaker.neocities.org/"
+		"https://dexterdaybreaker.neocities.org/Images/ButtonLogo.png": "https://dexterdaybreaker.neocities.org/",
+		"https://art.ballonlea.net/assets/sitebutton1.gif": "https://art.ballonlea.net/",
+		"https://lostletters.neocities.org/graphics/linkout/palestine-hillhouse.gif": "https://hillhouse.neocities.org/journal/notes/palestine",
+		"https://artwork.neocities.org/000/artworkbuttonbambi.gif": "https://artwork.neocities.org",
+		"https://artwork.neocities.org/buttons/solaria.gif": "https://solaria.neocities.org/"
 	},
 	"top5music": [{"name": "Bury it", "author":  "bumr", "img": "buryit.jpg"}, {"name": "Constallation Cradle", "author":  "Vylet Pony", "img":  "carousel.png"}, {"name":  "Bukiet róż", "author": "Bliss.", "img":  "bukietroz.jpg"}, {"name":  "Paper Dolls", "author": "Stomach Book", "img":  "paperdolls.jpg"}, {"name":  "Fuck My Life", "author": "Eleven", "img":  "fml.jpg"}],
 	"animations": [

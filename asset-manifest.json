@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.b7d2859f.css",
-    "main.js": "/static/js/main.6f05bd89.js",
+    "main.js": "/static/js/main.38853355.js",
+    "static/media/StellardustStarcatcher.png": "/static/media/StellardustStarcatcher.7ba885d6d57c62aa6119.png",
     "static/media/amethyst_spikes.png": "/static/media/amethyst_spikes.716a7f05a62bf13f7582.png",
     "static/media/bone_forest.png": "/static/media/bone_forest.dc75672d041298fdf64b.png",
     "static/media/old_ref.png": "/static/media/old_ref.16de5648f4e4aa546280.png",
@@ -61,10 +62,10 @@
     "static/media/transkucexe.png": "/static/media/transkucexe.82e0eff192bee74639ad.png",
     "index.html": "/index.html",
     "main.b7d2859f.css.map": "/static/css/main.b7d2859f.css.map",
-    "main.6f05bd89.js.map": "/static/js/main.6f05bd89.js.map"
+    "main.38853355.js.map": "/static/js/main.38853355.js.map"
   },
   "entrypoints": [
     "static/css/main.b7d2859f.css",
-    "static/js/main.6f05bd89.js"
+    "static/js/main.38853355.js"
   ]
 }
