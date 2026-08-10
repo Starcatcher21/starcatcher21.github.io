@@ -68,7 +68,8 @@
 		{"name": "Teen Titans", "rating": 8, "img": "teentitans.png"},
 		{"name": "Titans", "rating": 8, "img": "titans.png"},
 		{"name": "Spider-Man: Across the Spider-Verse", "rating": 9, "img": "spiderverse.png"},
-		{"name": "Metal Family", "rating": 8, "img": "metal.png"}
+		{"name": "Metal Family", "rating": 8, "img": "metal.png"},
+		{"name": "Hilda", "rating": 10, "img": "hilda.png"}
 	],
 	"games": [
 		{"name": "Minecraft", "rating": 10, "img": "minecraft.png"},
